@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gcli0QdisXrGJDk6ZRqgl6xXuieZLGcnOxJVQDyn4Ysbj0+Dt+56oxUi4YgEvBkTS1b6AnYXpSo6YgaaUUaZhQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\William\\source\\repos\\times\\times\\times.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\William\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
