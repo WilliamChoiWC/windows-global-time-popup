@@ -18,6 +18,7 @@ namespace times
             ca_label.Text = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("Pacific Standard Time")).ToString("G");
             hk_label.Text = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("China Standard Time")).ToString("G");
             uk_label.Text = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time")).ToString("G");
+            tor_label.Text = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time")).ToString("G");
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -70,6 +71,16 @@ namespace times
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tor_label_Click(object sender, EventArgs e)
         {
 
         }

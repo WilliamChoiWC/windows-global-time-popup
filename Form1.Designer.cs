@@ -38,6 +38,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.uk_label = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tor_label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // hk_label
@@ -111,7 +113,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(-2, 88);
+            this.label3.Location = new System.Drawing.Point(-2, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 19);
             this.label3.TabIndex = 7;
@@ -123,18 +125,41 @@
             this.uk_label.AutoSize = true;
             this.uk_label.Enabled = false;
             this.uk_label.Font = new System.Drawing.Font("新細明體", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.uk_label.Location = new System.Drawing.Point(-2, 107);
+            this.uk_label.Location = new System.Drawing.Point(-3, 154);
             this.uk_label.Name = "uk_label";
             this.uk_label.Size = new System.Drawing.Size(249, 29);
             this.uk_label.TabIndex = 6;
             this.uk_label.Text = "00/00/0000 00:00:00";
             this.uk_label.Click += new System.EventHandler(this.label4_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(-1, 87);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 19);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Vancouver";
+            // 
+            // tor_label
+            // 
+            this.tor_label.AutoSize = true;
+            this.tor_label.Enabled = false;
+            this.tor_label.Font = new System.Drawing.Font("新細明體", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tor_label.Location = new System.Drawing.Point(-2, 106);
+            this.tor_label.Name = "tor_label";
+            this.tor_label.Size = new System.Drawing.Size(249, 29);
+            this.tor_label.TabIndex = 8;
+            this.tor_label.Text = "00/00/0000 00:00:00";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(239, 145);
+            this.ClientSize = new System.Drawing.Size(239, 180);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.tor_label);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.uk_label);
             this.Controls.Add(this.button1);
@@ -165,5 +190,7 @@
         private Button button1;
         private Label label3;
         private Label uk_label;
+        private Label label4;
+        private Label tor_label;
     }
 }
